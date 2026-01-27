@@ -1,0 +1,13 @@
+# Java
+*.class
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# Logs
+*.log
+
+# Configurações locais
+*.properties
