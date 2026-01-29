@@ -32,4 +32,4 @@ Trabalho apresentado à Faculdade de Tecnologia do Estado de São Paulo – Fate
 
 ## Autor
 Felipe de Jesus dos Reis  
-Fatec Zona Sul – 2025
+FATEC Zona Sul - Dom Paulo Evaristo Arns (2025)
