@@ -1,4 +1,4 @@
-![Sistema](docs/prints/imagem2.png)
+![Sistema](docs/prints/Imagem2.png)
 
 # Deosérmis – Sistema de Gestão de Estoque
 
@@ -57,22 +57,22 @@ O sistema foi desenvolvido utilizando o padrão MVC (Model-View-Controller), com
 ## 🖥️ Imagens do Sistema
 
 ### Tela de Login
-![Login](docs/prints/imagem1.png)
+![Login](docs/prints/Imagem1.png)
 
 ### Tela Principal
-![Dashboard](docs/prints/imagem2.png)
+![Dashboard](docs/prints/Imagem2.png)
 
 ### Balanço Financeiro
-![Relatórios](docs/prints/imagem10.png)
+![Relatórios](docs/prints/Imagem10.png)
 
 ### Cadastro de Produtos
-![Produtos](docs/prints/imagem4.png)
+![Produtos](docs/prints/Imagem4.png)
 
 ### Fornecedores
-![Fornecedores](docs/prints/imagem3.png)
+![Fornecedores](docs/prints/Imagem3.png)
 
 ### Pedidos
-![Pedidos](docs/prints/imagem6.png)
+![Pedidos](docs/prints/Imagem6.png)
 
 ---
 
