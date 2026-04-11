@@ -33,7 +33,7 @@ O sistema foi desenvolvido utilizando o padrão MVC (Model-View-Controller), com
 
 ---
 
-## 🔐 Segurança e Integridade
+## Segurança e Integridade
 
 - Senhas armazenadas com hash e salt  
 - Soft delete (exclusão lógica)  
@@ -42,7 +42,7 @@ O sistema foi desenvolvido utilizando o padrão MVC (Model-View-Controller), com
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Cadastro de produtos e fornecedores  
 - Controle de estoque (entrada e saída)  
@@ -54,7 +54,7 @@ O sistema foi desenvolvido utilizando o padrão MVC (Model-View-Controller), com
 
 ---
 
-## 🖥️ Imagens do Sistema
+## Imagens do Sistema
 
 ### Tela de Login
 ![Login](docs/prints/Imagem1.png)
@@ -76,7 +76,7 @@ O sistema foi desenvolvido utilizando o padrão MVC (Model-View-Controller), com
 
 ---
 
-## ▶️ Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Clonar o repositório:
 
@@ -100,3 +100,23 @@ git clone https://github.com/felipdjesus97/SEU-REPO
 ---
 
 ### 5. Executar aplicação 
+
+## Estrutura do Projeto
+
+- /src → Código Java  
+- /database → Scripts SQL  
+- /docs → Documentação, Diagramas e Imagens  
+
+---
+
+## Contexto Acadêmico
+
+Projeto desenvolvido como TCC da Fatec Zona Sul.
+
+---
+
+## Autor
+
+Felipe de Jesus dos Reis  
+https://www.linkedin.com/in/felipedejesus97  
+https://github.com/felipdjesus97
