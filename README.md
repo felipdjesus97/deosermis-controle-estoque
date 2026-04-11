@@ -1,35 +1,102 @@
-# Deosérmis – Controle de Estoque
+![Sistema](docs/prints/imagem2.png)
 
-Sistema desktop de controle de estoque desenvolvido como Trabalho de Conclusão de Curso (TCC) da Fatec Zona Sul – Dom Paulo Evaristo Arns.
+# Deosérmis – Sistema de Gestão de Estoque
 
-## Descrição
-O Deosérmis é uma aplicação desktop voltada para microempreendedores que realizam vendas por redes sociais, oferecendo controle de produtos, fornecedores, pedidos, reposições e relatórios financeiros.
+Sistema completo de gestão de estoque com controle financeiro, autenticação de usuários, permissões por perfil e auditoria de operações, desenvolvido em Java com integração a banco de dados MySQL.
+
+## Sobre o Projeto
+O Deosérmis é uma aplicação desktop desenvolvida como Trabalho de Conclusão de Curso (TCC) da Fatec Zona Sul, voltada para microempreendedores que realizam vendas por redes sociais.
+
+O sistema permite o controle completo de produtos, fornecedores, pedidos, reposições e relatórios financeiros, auxiliando na organização e tomada de decisões.
+
+---
 
 ## Tecnologias Utilizadas
+
 - Java (Swing)
 - MySQL
 - JDBC
 - NetBeans
-- UML (Diagramas)
+- UML
 - Git e GitHub
 
-## Funcionalidades
-- Cadastro de produtos e fornecedores
-- Controle de estoque (entrada e saída)
-- Registro de pedidos e reposições
-- Alertas de estoque mínimo
-- Relatórios financeiros
-- Controle de usuários e permissões
-- Backup e auditoria
+---
 
-## Estrutura do Projeto
-- `/src` – Código-fonte Java
-- `/database` – Scripts SQL
-- `/docs` – Documentação, diagramas e TCC
+## Arquitetura do Sistema
 
-## Contexto Acadêmico
-Trabalho apresentado à Faculdade de Tecnologia do Estado de São Paulo – Fatec Zona Sul, como requisito para obtenção do título de Tecnólogo em Análise e Desenvolvimento de Sistemas.
+O sistema foi desenvolvido utilizando o padrão MVC (Model-View-Controller), com separação em camadas:
 
-## Autor
-Felipe de Jesus dos Reis  
-FATEC Zona Sul - Dom Paulo Evaristo Arns (2025)
+- View: Interface gráfica em Java Swing  
+- Controller: Controle de fluxo e regras de negócio  
+- Model: Representação das entidades do sistema  
+- DAO: Acesso e manipulação de dados via JDBC  
+
+---
+
+## 🔐 Segurança e Integridade
+
+- Senhas armazenadas com hash e salt  
+- Soft delete (exclusão lógica)  
+- Auditoria de operações  
+- Controle de acesso por perfil  
+
+---
+
+## ⚙️ Funcionalidades
+
+- Cadastro de produtos e fornecedores  
+- Controle de estoque (entrada e saída)  
+- Registro de pedidos e reposições  
+- Alertas de estoque mínimo  
+- Relatórios financeiros  
+- Controle de usuários e permissões  
+- Backup de dados  
+
+---
+
+## 🖥️ Imagens do Sistema
+
+### Tela de Login
+![Login](docs/prints/imagem1.png)
+
+### Tela Principal
+![Dashboard](docs/prints/imagem2.png)
+
+### Balanço Financeiro
+![Relatórios](docs/prints/imagem10.png)
+
+### Cadastro de Produtos
+![Produtos](docs/prints/imagem4.png)
+
+### Fornecedores
+![Fornecedores](docs/prints/imagem3.png)
+
+### Pedidos
+![Pedidos](docs/prints/imagem6.png)
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Clonar o repositório:
+
+Abra o terminal e execute:
+
+git clone https://github.com/felipdjesus97/SEU-REPO
+
+---
+
+### 2. Abrir no NetBeans  
+
+---
+
+### 3. Configurar o MySQL
+- Executar scripts da pasta `/database`
+
+---
+
+### 4. Ajustar conexão com banco no projeto  
+
+---
+
+### 5. Executar aplicação 
