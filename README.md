@@ -65,13 +65,13 @@ O sistema foi desenvolvido utilizando o padrão MVC (Model-View-Controller), com
 ### Balanço Financeiro
 ![Relatórios](docs/prints/Imagem10.png)
 
-### Cadastro de Produtos
+### Cadastro de Produto
 ![Produtos](docs/prints/Imagem4.png)
 
-### Fornecedores
+### Cadastro de Fornecedor
 ![Fornecedores](docs/prints/Imagem3.png)
 
-### Pedidos
+### Registro de Pedido
 ![Pedidos](docs/prints/Imagem6.png)
 
 ---
@@ -106,6 +106,31 @@ git clone https://github.com/felipdjesus97/SEU-REPO
 - /src → Código Java  
 - /database → Scripts SQL  
 - /docs → Documentação, Diagramas e Imagens  
+
+---
+### 6. Criar usuário administrador (primeiro acesso)
+
+Antes de executar o sistema pela primeira vez, é necessário criar um usuário administrador.
+
+Siga os passos:
+
+1. Certifique-se de que o banco de dados já está criado e configurado.
+
+2. No NetBeans, localize a classe:
+
+/src/Master/CriandoADMmaster.java
+
+3. Clique com o botão direito na classe e selecione **Run File** (ou pressione **Shift + F6**).
+
+4. O sistema irá executar a criação do usuário administrador automaticamente.
+
+5. Após isso, execute o sistema normalmente (F6).
+
+Credenciais padrão:
+- Usuário: adm  
+- Senha: 123  
+
+⚠️ Recomenda-se alterar a senha após o primeiro acesso.
 
 ---
 
