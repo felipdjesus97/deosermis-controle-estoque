@@ -101,7 +101,7 @@ git clone https://github.com/felipdjesus97/deosermis-controle-estoque
 
 ### 5. Executar aplicação 
 
-## Estrutura do Projeto
+Estrutura do Projeto
 
 - /src → Código Java  
 - /database → Scripts SQL  
