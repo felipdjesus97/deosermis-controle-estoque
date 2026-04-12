@@ -78,7 +78,7 @@ O sistema foi desenvolvido utilizando o padrão MVC (Model-View-Controller), com
 
 ## Como Executar o Projeto
 
-1. Clonar o repositório:
+### 1. Clonar o repositório:
 
 Abra o terminal e execute:
 
