@@ -82,7 +82,7 @@ O sistema foi desenvolvido utilizando o padrão MVC (Model-View-Controller), com
 
 Abra o terminal e execute:
 
-git clone https://github.com/felipdjesus97/SEU-REPO
+git clone https://github.com/felipdjesus97/deosermis-controle-estoque
 
 ---
 
