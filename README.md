@@ -95,7 +95,11 @@ git clone https://github.com/felipdjesus97/deosermis-controle-estoque
 
 ---
 
-### 4. Executar diretamente (sem NetBeans)
+### 4. Executar o sistema
+
+Escolha uma das opções abaixo:
+
+#### Opção 1 - Executar diretamente (sem NetBeans)
 
 Após clonar o projeto, acesse a pasta:
 
@@ -107,6 +111,14 @@ Deosermis.exe
 
 O sistema será iniciado normalmente.
 
+---
+
+#### Opção 2 - Executar pelo NetBeans
+
+Abra o projeto no NetBeans e execute (F6).
+
+---
+
 Caso não exista nenhum usuário cadastrado, o sistema criará automaticamente um usuário administrador.
 
 Credenciais padrão:
@@ -114,12 +126,6 @@ Credenciais padrão:
 - Senha: 123  
 
 Recomenda-se alterar a senha após o primeiro acesso.
-
----
-
-### 5. Executar pelo NetBeans (opcional)
-
-Abra o projeto no NetBeans e execute (F6).
 
 ---
 
