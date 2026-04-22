@@ -111,8 +111,6 @@ Deosermis.exe
 
 O sistema será iniciado normalmente.
 
----
-
 #### Opção 2 - Executar pelo NetBeans
 
 Abra o projeto no NetBeans e execute (F6).
