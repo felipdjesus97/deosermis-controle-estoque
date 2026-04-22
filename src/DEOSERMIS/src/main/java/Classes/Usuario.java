@@ -279,7 +279,22 @@ public class Usuario {
             return false;
         }
     }
+    public static boolean existeUsuario() {
+        try {
+            Connection conn = ConexaoBanco.getConnection();
+            PreparedStatement ps = conn.prepareStatement("SELECT COUNT(*) FROM usuario");
+            ResultSet rs = ps.executeQuery();
 
+            if (rs.next()) {
+                return rs.getInt(1) > 0;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return true;
+    }
+    
     public boolean atualizar(long codigo, String novoNome, String novoEmail, String novaSenha) {
         try (Connection conn = ConexaoBanco.getConnection()) {
             conn.setAutoCommit(false);

@@ -1,11 +1,15 @@
 package Main;
 
 import Classes.Funcoes;
+import Classes.Usuario;
+import Master.CriandoADMmaster;
 import Tela.Inicio.Carregamento;
 import javax.swing.*;
 
 public class DEOSERMIS {
     public static void main(String[] args) {
+        
+         
         SwingUtilities.invokeLater(() -> {
             Carregamento carregamento = new Carregamento();
             carregamento.setVisible(true);
@@ -13,7 +17,7 @@ public class DEOSERMIS {
             int tempoTotal = 5000; 
             int passos = 100;
             int delay = tempoTotal / passos;
-
+            
             new Thread(() -> {
                 try {
                     for (int i = 0; i <= 100; i++) {
@@ -28,7 +32,17 @@ public class DEOSERMIS {
                         });
                         Thread.sleep(delay);
                     }
+                    // VERIFICA SE EXISTE USUÁRIO
+                    if (!Usuario.existeUsuario()) {
+                        carregamento.lblStatus.setText("Nenhum usuário encontrado. Criando administrador");
 
+                        CriandoADMmaster.criarMaster(
+                            "adm",
+                            "adm@dominio.com",
+                            "123",
+                            carregamento
+                        );
+                    }
                     // Verifica a conexão
                     if (TesteConexao.verificarConexao()) {
                         SwingUtilities.invokeLater(() -> {
