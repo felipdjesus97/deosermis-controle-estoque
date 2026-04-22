@@ -86,51 +86,48 @@ git clone https://github.com/felipdjesus97/deosermis-controle-estoque
 
 ---
 
-### 2. Abrir no NetBeans  
-
----
-
-### 3. Configurar o MySQL
+### 2. Configurar o MySQL
 - Executar scripts da pasta `/database`
 
 ---
 
-### 4. Ajustar conexão com banco no projeto  
+### 3. Ajustar conexão com banco no projeto  
 
 ---
 
-### 5. Executar aplicação 
+### 4. Executar diretamente (sem NetBeans)
 
-Estrutura do Projeto:
+Após clonar o projeto, acesse a pasta:
 
-- /src → Código Java  
-- /database → Scripts SQL  
-- /docs → Documentação, Diagramas e Imagens  
+src/DEOSERMIS
 
----
-### 6. Criar usuário administrador (primeiro acesso)
+Execute o arquivo:
 
-Antes de executar o sistema pela primeira vez, é necessário criar um usuário administrador.
+Deosermis.exe
 
-Siga os passos:
+O sistema será iniciado normalmente.
 
-1. Certifique-se de que o banco de dados já está criado e configurado.
-
-2. No NetBeans, localize a classe:
-
-/src/Master/CriandoADMmaster.java
-
-3. Clique com o botão direito na classe e selecione **Run File** (ou pressione **Shift + F6**).
-
-4. O sistema irá executar a criação do usuário administrador automaticamente.
-
-5. Após isso, execute o sistema normalmente (F6).
+Caso não exista nenhum usuário cadastrado, o sistema criará automaticamente um usuário administrador.
 
 Credenciais padrão:
 - Usuário: adm  
 - Senha: 123  
 
-⚠️ Recomenda-se alterar a senha após o primeiro acesso.
+Recomenda-se alterar a senha após o primeiro acesso.
+
+---
+
+### 5. Executar pelo NetBeans (opcional)
+
+Abra o projeto no NetBeans e execute (F6).
+
+---
+
+## Estrutura do Projeto
+
+- /src → Código Java  
+- /database → Scripts SQL  
+- /docs → Documentação, Diagramas e Imagens  
 
 ---
 
